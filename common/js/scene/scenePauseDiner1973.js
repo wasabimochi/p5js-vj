@@ -13,7 +13,7 @@ function scenePauseDiningBar1973Draw() {
     scenePauseDiningBar1973Layer.fill(0);
     scenePauseDiningBar1973Layer.textAlign(CENTER);
     scenePauseDiningBar1973Layer.textSize(128);
-    scenePauseDiningBar1973Layer.textFont('Impact');
+    scenePauseDiningBar1973Layer.textFont(fontAntonRegular);
     scenePauseDiningBar1973Layer.text('Dining Bar 1973', windowWidth / 2 , windowHeight / 2);
     image(scenePauseDiningBar1973Layer, width / 2, height / 2 );
 }

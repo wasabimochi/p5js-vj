@@ -20,10 +20,11 @@ let mic; // マイク入力
 let fft;
 let smoothing = 0.8; // play with this, between 0 and .99
 let binCount = 1024; // size of resulting FFT array. Must be a power of 2 between 16 an 1024
-
+let fontAntonRegular;
 function preload() {
   console.log('preload');
-  scenePauseVideoPreload();
+  // scenePauseVideoPreload();
+  fontAntonRegular = loadFont('/common/assets/fonts/Anton-Regular.ttf');
 }
 
 function setup() {
