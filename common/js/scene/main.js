@@ -24,7 +24,7 @@ let fontAntonRegular;
 function preload() {
   console.log('preload');
   // scenePauseVideoPreload();
-  fontAntonRegular = loadFont('/common/assets/fonts/Anton-Regular.ttf');
+  fontAntonRegular = loadFont('./common/assets/fonts/Anton-Regular.ttf');
 }
 
 function setup() {
